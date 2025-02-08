@@ -14,7 +14,9 @@
 
     <!-- font awesome cnd -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -36,7 +38,41 @@
 </head>
 
 <body>
+    <!-- main section container -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- header section -->
+        <header class="md:flex pt-10 mb-20">
+            <!-- text content -->
+            <div>
+                <h1 class="text-5xl md:text-7xl">
+                    It's good <br>tea time at The <br> Tea House
+                </h1>
+                <br>
+                <p class="text-gray-500 w-3/4">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <br>
+                <button class="bg-linear-to-t from-[#FF0000] to-[#FF8938] py-3 px-5 rounded-lg text-white font-bold text-xl">
+                    Explore More
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </button>
+            </div>
+            <div class="relative">
+                <img class="w-full" src="images/banner.png" alt="">
+                <!-- card -->
+                <div class="absolute flex items-center justify-center bg-white shadow-xl p-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+                    <div>
+                        <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+                    </div>
+                    <div class="mx-2">
+                        <h2 class="md:text-2xl">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
 
+        </header>
+    </main>
 </body>
 
 </html>
